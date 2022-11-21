@@ -1,0 +1,36 @@
+.notifications{
+    margin-top: 3em;
+}
+
+.notifications .header {
+    display: flex;
+    justify-content: space-between;
+}
+.notifications .header h2{
+    color: #2E3192;
+}
+.notifications .alert{
+    background-color: #F8FDFF;
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.notifications .cancel{
+    display: flex;
+    text-align: center;
+}
+.notifications .message{
+    display: flex;
+    justify-content: center;
+}
+.notifications .message img{
+    margin-right: 0.5em;
+}
+
+.notifications .alert .unread{
+    color: #D44E4E;
+    text-transform: uppercase;
+    font-weight: 500;
+}
