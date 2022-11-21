@@ -3,8 +3,6 @@ import SideNav from "./components/SideNav/SideNav";
 import TopNav from "./components/TopNav/TopNav";
 import "./components/TopNav/TopNav.css";
 import "./components/SideNav/SideNav.css";
-import "./components/Notification/Notification.css";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +10,6 @@ function App() {
       <SideNav />
       <TopNav />
       <Notification />
-      <Footer />
     </section>
   );
 }
